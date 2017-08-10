@@ -1,4 +1,4 @@
-# uniprof
+# Uniprof
 
 Universal javascript profiler for any platform
 
@@ -17,7 +17,7 @@ See screencast
 
 ## Using symbols map
 
-uniprof supports symbols map by passing symbols file:
+uniprof support symbols map by passing symbols file:
 
 ```
 shortname1:fullname1
@@ -25,7 +25,7 @@ shortname2:fullname2
 ...
 ```
 
-## Howto test
+## How To Test
 
 ```
 node test/test-all.js
