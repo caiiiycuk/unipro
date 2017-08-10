@@ -1,0 +1,18 @@
+{
+  "name": "uniprof",
+  "version": "0.0.1",
+  "author": {
+    "name": "Aleksandr Guryanov",
+    "email": "caiiiycuk@gmail.com",
+    "url": "https://github.com/caiiiycuk/uniprof"
+  },
+  "description": "Universal javascript profiler for any platform",
+  "main": "./uniprof.js",
+  "bin": {
+    "uniprof": "./uniprof.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:caiiiycuk/uniprof.git"
+  }
+}
