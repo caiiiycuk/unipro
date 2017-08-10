@@ -13,7 +13,8 @@ npm install -g
 
 # Using
 
-See screencast
+Take a look:
+[![Using uniprof](https://img.youtube.com/vi/iNVMXl2iiSk/0.jpg)](https://www.youtube.com/watch?v=iNVMXl2iiSk)
 
 ## Using symbols map
 
