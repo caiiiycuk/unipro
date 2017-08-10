@@ -2,8 +2,13 @@
 
 Universal javascript profiler for any platform
 
-## Building
+## Installing
 
+From npm:
+```
+sudo npm -g install uniprof
+```
+OR
 From repository:
 ```
 git clone https://github.com/caiiiycuk/uniprof.git
