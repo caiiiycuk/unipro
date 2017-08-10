@@ -15,7 +15,7 @@ npm install -g
 
 Take a look:
 
-[![Using uniprof](https://img.youtube.com/vi/iNVMXl2iiSk/0.jpg)](https://www.youtube.com/watch?v=iNVMXl2iiSk)
+[![Using uniprof](https://raw.githubusercontent.com/caiiiycuk/uniprof/master/docs/preview.png)](https://www.youtube.com/watch?v=iNVMXl2iiSk)
 
 ## Using symbols map
 
