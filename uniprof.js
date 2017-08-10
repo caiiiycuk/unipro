@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+var fs = require('fs');
+
 if (process.argv.length < 3) {
   console.log('Usage: uniprof <js-file> [out-js-file] [symbols-file]');
   console.log('');
@@ -19,4 +21,13 @@ var symbolsfile = process.argv[4];
 
 console.log('Processing ' + jsfile + ' -> ' + outfile + (symbolsfile ? ' (symbols: ' + symbolsfile + ')' : ''));
 
-require('./lib/transform.js').transformjs(jsfile, outfile, symbolsfile);
+require('./lib/transform.js').transformjs({
+  'jsfile': jsfile,
+  'outfile': outfile,
+  'symbolsfile': symbolsfile,
+  'callback': function(contents) {
+    fs.writeFile(outfile, contents, 'utf8', function(err) {
+      if (err) throw err;
+    });
+  }
+});
